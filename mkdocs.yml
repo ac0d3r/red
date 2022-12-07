@@ -1,0 +1,56 @@
+site_name: macOS.Red
+site_url: https://red.macoder.tech
+site_author: 巴斯.zznQ
+site_description: "巴斯的macOS红队技术笔记"
+# ac0d3r/red
+repo_name:
+# https://github.com/ac0d3r/red
+repo_url:
+copyright: Copyright &copy; 2022 - 2022 巴斯.zznQ
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/redhat
+      link: https://macoder.tech
+      name: 巴斯.zznQ
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ac0d3r
+      name: 巴斯光年's twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/ac0d3r
+      name: 巴斯光年's github
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  font: false
+  icon:
+    logo: material/ghost
+  features:
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+  favicon: assets/images/ac0d3r.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: 切换深色模式
+    - scheme: slate
+      toggle:
+        icon: material/brightness-5
+        name: 切换浅色模式
+plugins:
+  - git-revision-date
+  - search
+
+# Page tree
+nav:
+  - 主页: index.md
+  - 前言介绍:
+      - 背景: 0-前言介绍/0-1.md
