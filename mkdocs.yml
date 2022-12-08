@@ -6,7 +6,7 @@ site_description: "巴斯的macOS红队技术笔记"
 repo_name:
 # https://github.com/ac0d3r/red
 repo_url:
-copyright: Copyright &copy; 2022 - 2022 巴斯.zznQ
+copyright: Copyright &copy; 2022 巴斯.zznQ
 extra:
   generator: false
   social:
